@@ -30,3 +30,12 @@ For your project this week, you will demonstrate proficiency by working with a g
 ## Your Grading Rubric Here:
 
 Use [this rubric](https://docs.google.com/spreadsheets/d/1BbdmSMUdzURMo0wcsr4XSKvegDgB28WkK2wnjmORzDo/edit?usp=sharing) to help guide your development processes
+
+
+## Misc Notes:
+
+### Git Workflow
+- I have attempted to follow the Git Workflow outlined [here](https://www.notion.so/Git-Workflow-34f9b468dcf74a669aff0d3797870d37)
+
+### Color/Design Flow Layout: Paradigm Shift
+- The consensus was for [Paradigm Shift](https://html5up.net/paradigm-shift)
