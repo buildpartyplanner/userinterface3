@@ -37,5 +37,5 @@ Use [this rubric](https://docs.google.com/spreadsheets/d/1BbdmSMUdzURMo0wcsr4XS
 ### Git Workflow
 - I have attempted to follow the Git Workflow outlined [here](https://www.notion.so/Git-Workflow-34f9b468dcf74a669aff0d3797870d37)
 
-### Color/Design Flow Layout: Paradigm Shift
-- The consensus was for [Paradigm Shift](https://html5up.net/paradigm-shift)
+### Color/Design Flow Layout: Paradigm Shift from HTML5 Up, 23 April 2019
+- The consensus was for [Paradigm Shift](https://html5up.net/paradigm-shift).

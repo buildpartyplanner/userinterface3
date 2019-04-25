@@ -1,0 +1,46 @@
+
+.intro-about{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 2%;
+    img{
+        width:60%;
+        margin: 2% auto;
+        @media @phone{
+            display:none;
+        }
+    }
+    .intro-blub{
+        margin-bottom: 2%;
+        h2{
+            border: 2px solid blue;
+        }
+        p {
+            margin:1% 1%;
+            padding: 2%;
+        }
+    }
+
+}
+
+.content-row{
+    margin: 2% auto;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    @media @phone{
+        flex-direction:column;
+    }
+    .feature-blurb {
+        margin: 2%;
+        width:33%;
+        display:flex;
+        flex-flow: column wrap;
+        align-content: flex-start;
+        @media @phone{
+            width: 100%;
+        }
+        
+    }
+}

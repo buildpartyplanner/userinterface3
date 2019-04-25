@@ -182,6 +182,7 @@ html,
 body {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   color: black;
+  background-color: #04dbab;
 }
 h1,
 h2,
@@ -212,6 +213,7 @@ a {
   width: 100%;
   margin: 0 auto;
   border: 2px solid #49fcd4;
+  background-color: white;
 }
 .navigation {
   display: flex;
@@ -221,13 +223,21 @@ a {
   justify-content: center;
   align-content: space-between;
 }
+@media (max-width:500px) {
+  .navigation {
+    flex-direction: column;
+  }
+}
 .navigation h1 {
+  padding: 1% 2%;
   width: 33%;
   text-align: center;
   border: 2px solid black;
 }
-.navigation a {
-  width: 20%;
+@media (max-width:500px) {
+  .navigation h1 {
+    width: 100%;
+  }
 }
 .navigation nav {
   margin: 0 2%;
@@ -235,6 +245,81 @@ a {
   text-align: center;
   width: 60%;
 }
+@media (max-width:500px) {
+  .navigation nav {
+    flex-direction: column;
+    margin: 2% auto;
+  }
+}
 .navigation nav a {
+  padding: 2% 2%;
+  margin: 2% 2%;
+  font-weight: bold;
+  text-decoration: none;
+  width: 20%;
+  font-size: 2rem;
+  color: black;
+}
+@media (max-width:500px) {
+  .navigation nav a {
+    width: 100%;
+    text-align: center;
+    font-size: 2.4rem;
+  }
+}
+.intro-about {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-bottom: 2%;
+}
+.intro-about img {
+  width: 60%;
+  margin: 2% auto;
+}
+@media (max-width:500px) {
+  .intro-about img {
+    display: none;
+  }
+}
+.intro-about .intro-blub {
+  margin-bottom: 2%;
+}
+.intro-about .intro-blub h2 {
+  border: 2px solid blue;
+}
+.intro-about .intro-blub p {
   margin: 1% 1%;
+  padding: 2%;
+}
+.content-row {
+  margin: 2% auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width:500px) {
+  .content-row {
+    flex-direction: column;
+  }
+}
+.content-row .feature-blurb {
+  margin: 2%;
+  width: 33%;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+}
+@media (max-width:500px) {
+  .content-row .feature-blurb {
+    width: 100%;
+  }
+}
+footer {
+  background-color: #49fcd4;
+  width: 100%;
+  text-align: center;
+}
+footer h2 {
+  font-size: 1.6rem;
 }
