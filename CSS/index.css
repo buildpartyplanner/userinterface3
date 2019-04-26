@@ -268,6 +268,9 @@ a {
     width: 100%;
     text-align: center;
     font-size: 2.4rem;
+    padding: 3% 3%;
+    margin: 0 auto;
+    border-top: 2px solid #03a984;
   }
 }
 .intro-about {
@@ -278,7 +281,7 @@ a {
   margin-bottom: 2%;
 }
 .intro-about .imgblock {
-  margin-top: 8%;
+  margin-top: 10%;
   display: flex;
   flex-flow: row;
   width: 100%;
@@ -286,6 +289,7 @@ a {
 .intro-about .imgblock img {
   width: 50%;
   height: 50%;
+  border-radius: 30px;
 }
 .intro-about .imgblock h2 {
   width: 50%;
@@ -305,6 +309,11 @@ a {
 .intro-about .intro-blurb p {
   margin: 2%;
   font-size: 1.8rem;
+}
+@media (max-width:500px) {
+  .intro-about .intro-blurb {
+    margin-top: 2%;
+  }
 }
 .content-row {
   margin: 2% auto;
@@ -333,6 +342,7 @@ a {
   margin: 2%;
   width: 90%;
   height: auto;
+  border-radius: 20px;
 }
 @media (max-width:500px) {
   .content-row .feature-blurb img {
