@@ -1,4 +1,8 @@
+
+
 .navigation{
+    position:fixed;
+    z-index:30;
     display:flex;
     background-color: @dominant-color;
     width: 100%;
@@ -7,12 +11,13 @@
     align-content: space-between;
     @media @phone{
         flex-direction: column;
+        position: relative;
     }
     h1{
         padding: 1% 2%;
         width:33%;
         text-align:center;
-        border: 2px solid black;
+        border: 2px solid darken(@dominant-color,30%);
         @media @phone{
             width: 100%;
         }
@@ -26,9 +31,10 @@
         @media @phone{
             flex-direction: column;
             margin: 2% auto;
+            width: 100%;
         }
         a{
-            padding: 2% 2%;
+            padding:  1% 1%;
             margin: 2% 2%;
             font-weight: bold;
             text-decoration: none;
