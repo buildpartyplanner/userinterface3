@@ -1,0 +1,54 @@
+
+
+.navigation{
+    position:fixed;
+    z-index:30;
+    display:flex;
+    background-color: @dominant-color;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    @media @phone{
+        flex-direction: column;
+        position: relative;
+    }
+    h1{
+        padding: 1% 2%;
+        width:33%;
+        text-align:center;
+        border: 2px solid darken(@dominant-color,30%);
+        @media @phone{
+            width: 100%;
+        }
+    }
+
+    nav{
+        margin: 0 2%;
+        display:flex;
+        text-align: center;
+        width: 60%;
+        @media @phone{
+            flex-direction: column;
+            margin: 2% auto;
+            width: 100%;
+        }
+        a{
+            padding:  1% 1%;
+            margin: 2% 2%;
+            font-weight: bold;
+            text-decoration: none;
+            width:20%;
+            font-size:2.0rem;
+            color: black;
+            @media @phone{
+                width: 100%;
+                text-align: center;
+                font-size: 2.4rem;
+                padding: 3% 3%;
+                margin: 0 auto;
+                border-top: 2px solid darken(@dominant-color,30%)
+            }
+        }
+    }
+}
