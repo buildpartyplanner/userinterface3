@@ -212,7 +212,6 @@ a {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  border: 2px solid #49fcd4;
   background-color: white;
 }
 .navigation {
@@ -275,10 +274,11 @@ a {
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin-top: 8%;
+  margin-top: 0%;
   margin-bottom: 2%;
 }
 .intro-about .imgblock {
+  margin-top: 8%;
   display: flex;
   flex-flow: row;
   width: 100%;
@@ -331,7 +331,7 @@ a {
 }
 .content-row .feature-blurb img {
   margin: 2%;
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 @media (max-width:500px) {
