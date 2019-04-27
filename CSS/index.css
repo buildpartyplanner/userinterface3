@@ -177,6 +177,12 @@ table {
 }
 html {
   font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 html,
 body {
@@ -227,7 +233,9 @@ a {
 @media (max-width:500px) {
   .navigation {
     flex-direction: column;
+    align-content: center;
     position: relative;
+    width: 100%;
   }
 }
 .navigation h1 {
@@ -255,13 +263,17 @@ a {
   }
 }
 .navigation nav a {
-  padding: 1% 1%;
-  margin: 2% 1%;
+  padding: 4% 1%;
+  margin: 0% 0%;
   font-weight: bold;
   text-decoration: none;
   width: 20%;
   font-size: 2rem;
   color: black;
+}
+.navigation nav a:hover {
+  color: white;
+  background-color: #03a984;
 }
 .navigation nav a:last-child {
   border: 4px dashed #03a984;
@@ -297,6 +309,7 @@ a {
 .intro-about .imgblock h2 {
   width: 50%;
   font-size: 6rem;
+  padding: 4%;
 }
 @media (max-width:500px) {
   .intro-about .imgblock {
