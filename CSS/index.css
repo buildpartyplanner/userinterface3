@@ -234,7 +234,7 @@ a {
   padding: 1% 2%;
   width: 33%;
   text-align: center;
-  border: 2px solid #03a984;
+  border: 4px dashed #03a984;
 }
 @media (max-width:500px) {
   .navigation h1 {
@@ -256,12 +256,15 @@ a {
 }
 .navigation nav a {
   padding: 1% 1%;
-  margin: 2% 2%;
+  margin: 2% 1%;
   font-weight: bold;
   text-decoration: none;
   width: 20%;
   font-size: 2rem;
   color: black;
+}
+.navigation nav a:last-child {
+  border: 4px dashed #03a984;
 }
 @media (max-width:500px) {
   .navigation nav a {
