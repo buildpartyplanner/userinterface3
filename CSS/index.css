@@ -274,6 +274,7 @@ a {
 .navigation nav a:hover {
   color: white;
   background-color: #03a984;
+  font-size: 2.3rem;
 }
 .navigation nav a:last-child {
   border: 4px dashed #03a984;
@@ -373,6 +374,44 @@ a {
     width: 100%;
     margin: 3% auto;
   }
+}
+.stories-intro {
+  padding-top: 11%;
+}
+.party-stories {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin-top: 4%;
+  padding-bottom: 10%;
+}
+.tab-row {
+  margin: 1%;
+  width: 30%;
+}
+.tab-row .tab {
+  font-size: 1.9rem;
+  text-align: center;
+  font-weight: bolder;
+  margin: 0%;
+  padding: 10%;
+  border: 2px dashed #03a984;
+}
+.tab-row .tab:hover {
+  background-color: #03a984;
+  color: white;
+  font-size: 2.2rem;
+}
+.tab-content {
+  width: 50%;
+}
+.tab-content .party-story {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 2%;
+}
+.tab-content .party-story img {
+  width: 100%;
 }
 footer {
   background-color: #49fcd4;
