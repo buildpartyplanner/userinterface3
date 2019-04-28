@@ -378,40 +378,91 @@ a {
 .stories-intro {
   padding-top: 11%;
 }
+.stories-intro h2 {
+  margin: 0 14%;
+  color: #02775d;
+}
 .party-stories {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   width: 100%;
   margin-top: 4%;
   padding-bottom: 10%;
 }
 .tab-row {
-  margin: 1%;
+  margin: 2%;
   width: 30%;
+}
+.tab-row h3 {
+  text-align: center;
 }
 .tab-row .tab {
   font-size: 1.9rem;
   text-align: center;
   font-weight: bolder;
-  margin: 0%;
+  margin: 3%;
   padding: 10%;
-  border: 2px dashed #03a984;
+  border: 3px dashed #03a984;
 }
 .tab-row .tab:hover {
   background-color: #03a984;
   color: white;
   font-size: 2.2rem;
 }
+.tab-row .tab-selected {
+  background-color: #03a984;
+  color: white;
+}
+@media (max-width:500px) {
+  .tab-row {
+    display: none;
+  }
+}
 .tab-content {
   width: 50%;
 }
 .tab-content .party-story {
-  display: flex;
-  flex-flow: column wrap;
-  margin: 2%;
+  display: none;
+  margin: 1%;
+  border: 3px dashed #014536;
+  padding: 2%;
 }
 .tab-content .party-story img {
   width: 100%;
+  border-radius: 30px;
+  margin: 1%;
+}
+.tab-content .party-story h3 {
+  margin: 1%;
+  text-align: center;
+}
+.tab-content .party-story p {
+  margin: 1%;
+}
+@media (max-width:500px) {
+  .tab-content .party-story p {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width:500px) {
+  .tab-content .party-story {
+    margin: 2%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+  }
+}
+.tab-content .party-story-selected {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+@media (max-width:500px) {
+  .tab-content {
+    width: 100%;
+    margin: 2%;
+  }
 }
 footer {
   background-color: #49fcd4;
@@ -419,5 +470,10 @@ footer {
   text-align: center;
 }
 footer h2 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+}
+@media (max-width:500px) {
+  footer h2 {
+    font-size: 2rem;
+  }
 }

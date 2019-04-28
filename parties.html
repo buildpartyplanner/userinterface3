@@ -10,49 +10,59 @@
 
 </head>
 <body>
+    <script defer="defer" src="./components/tabs/tabs.js"></script>
+
     <header class="navigation">
         <h1>PARTY PLANNER</h1>
         <nav class="nav-header">
             <a href="index.html">About</a>
             <a href="parties.html">Our Parties</a>
             <a href="team.html">Our Team</a>
-            <a href="#">Contact</a>
+            <a href="contact.html">Contact</a>
             <a class = "login" href="#">Login</a>
         </nav>
     </header>
 
     <div class="container">
+        
         <div class="stories-intro">
-            <h2>PARTY PLANNER made these parties possible...</h2>
-            <p>Click on the tabs</p>
+            <h2>These awesome parties were made possible by PARTY PLANNER!</h2>
         </div>
+
         <div class="party-stories">
             <div class="tab-row">
-                <div class="tab" data-tab="Mad Hatter">Mad Hatter</div>
+                <h3>Party Organizers</h3>
+                <div class="tab tab-selected" data-tab="Mad Hatter">Mad Hatter</div>
                 <div class="tab" data-tab="Le Chevalier de Mirval">Le Chevalier de Mirval</div>
                 <div class="tab" data-tab="Trimalchio">Trimalchio</div>
                 <div class="tab" data-tab="Brigata">Florence Youth Brigade</div>
             </div>
             <div class="tab-content">
-                <div class="party-story" data-tab="Mad Hatter">
+                <div class="party-story party-story-selected" data-tab="Mad Hatter">
                     <h3>Mad Hatter's Tea Party</h3>
                     <img src="./assets/images/tenniel_alice_teaparty.png" alt="Tea Party">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque eius reprehenderit accusamus sit hic repellendus facilis non explicabo voluptas, laudantium officiis magni nulla facere sequi! Officia accusantium repudiandae cupiditate quam!</p>
                 </div>
                 <div class="party-story" data-tab="Le Chevalier de Mirval">
                     <h3>A Philosphic Evening with the Chevalier</h3>
+                    <img src="./assets/images/pexels-masquerade-896354.jpeg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, beatae sed dolor molestiae eos eveniet. Ratione voluptate quidem cupiditate numquam! Vitae corrupti perspiciatis assumenda voluptatem eveniet totam quod, enim fugiat.</p>
                 </div>
                 <div class="party-story" data-tab="Trimalchio">
                     <h3>Trimalchio's Feast to End All Feasts</h3>
+                    <img src="./assets/images/pexels-mysteryparty-787961.jpeg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptate alias enim recusandae placeat totam aperiam quidem saepe voluptatem asperiores et sit veniam vel sint voluptatibus similique quod, quasi quae?</p>
                 </div>
                 <div class="party-story" data-tab="Brigata">
                     <h3>A Plague of Tales in a Time of Plagues</h3>
+                    <img src="./assets/images/pexels-aerial_florence-1575367.jpg" alt="Florence on Foggy Day">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At hic expedita aperiam fugit esse! Numquam temporibus vel, iusto non velit, adipisci, quisquam quasi voluptatem quas similique nostrum? Enim, culpa itaque.</p>
                 </div>
             </div>
         </div>
     </div>
+    <footer>
+            <p class="copyright">Copyright Party Planners 2019</p>
+    </footer>
 </body>
 </html>
