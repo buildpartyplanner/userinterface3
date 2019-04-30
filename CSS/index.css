@@ -464,6 +464,143 @@ a {
     margin: 2%;
   }
 }
+.tab-row-team {
+  padding-top: 10%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.tab-row-team .tab-team {
+  width: 20%;
+  text-align: center;
+  padding: 1%;
+  font-size: 1.8rem;
+  margin: 1%;
+  border: 3px dashed #02775d;
+}
+.tab-row-team .tab-team-selected {
+  color: white;
+  background-color: #02775d;
+  font-weight: bolder;
+  padding: 0.8%;
+  font-size: 1.9rem;
+}
+@media (max-width:500px) {
+  .tab-row-team {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .tab-row-team {
+    padding-top: 20%;
+  }
+}
+.team-box {
+  width: 100%;
+  margin-top: 2%;
+}
+@media (max-width:500px) {
+  .team-box {
+    padding-top: 10%;
+    background-color: #02775d;
+  }
+}
+.team-profiles {
+  display: none;
+}
+.team-profiles h2 {
+  display: none;
+}
+@media (max-width:500px) {
+  .team-profiles h2 {
+    display: block;
+    width: 100%;
+    margin: 1%;
+  }
+}
+@media (max-width:500px) {
+  .team-profiles {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 2%;
+    border: 2px dashed #02775d;
+    background-color: white;
+  }
+}
+.team-profiles-selected {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: center;
+  width: 100%;
+}
+.team-profiles-selected h2 {
+  display: none;
+}
+@media (max-width:500px) {
+  .team-profiles-selected h2 {
+    display: block;
+    width: 100%;
+    margin: 1%;
+  }
+}
+.team-box {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 30%;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+.team-member {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: center;
+  width: 40%;
+  margin: 5%;
+}
+.team-member .team-member-text {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-content: center;
+  width: 40%;
+}
+.team-member .team-member-text h3 {
+  font-size: 2.4rem;
+  margin: 2%;
+  text-align: left;
+}
+.team-member .team-member-text p {
+  margin: 3%;
+  text-align: left;
+  width: 100%;
+}
+@media (max-width:500px) {
+  .team-member .team-member-text {
+    width: 50%;
+  }
+}
+.team-member img {
+  border-radius: 60px;
+  width: 30%;
+  height: 100%;
+  margin-right: 5%;
+}
+@media (max-width:500px) {
+  .team-member {
+    width: 80%;
+  }
+}
 footer {
   background-color: #49fcd4;
   width: 100%;
