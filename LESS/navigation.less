@@ -15,12 +15,16 @@
         width: 100%;
     }
     h1{
-        padding: 1% 2%;
+        padding: 2% 0%;
         width:33%;
         text-align:center;
         border: 4px dashed darken(@dominant-color,30%);
         @media @phone{
             width: 100%;
+        }
+        @media @intermediate{
+            font-size:3.0rem;
+            padding: 2% 2%;
         }
     }
 
@@ -50,6 +54,10 @@
             }
             &:last-child{
                 border: 4px dashed darken(@dominant-color,30%);
+            }
+            @media @intermediate{
+                padding: 5% 1%;
+                font-size: 1.8rem;
             }
             @media @phone{
                 width: 100%;
