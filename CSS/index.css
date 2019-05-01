@@ -239,7 +239,7 @@ a {
   }
 }
 .navigation h1 {
-  padding: 1% 2%;
+  padding: 2% 0%;
   width: 33%;
   text-align: center;
   border: 4px dashed #03a984;
@@ -247,6 +247,12 @@ a {
 @media (max-width:500px) {
   .navigation h1 {
     width: 100%;
+  }
+}
+@media (max-width:1000px) {
+  .navigation h1 {
+    font-size: 3rem;
+    padding: 2% 2%;
   }
 }
 .navigation nav {
@@ -278,6 +284,12 @@ a {
 }
 .navigation nav a:last-child {
   border: 4px dashed #03a984;
+}
+@media (max-width:1000px) {
+  .navigation nav a {
+    padding: 5% 1%;
+    font-size: 1.8rem;
+  }
 }
 @media (max-width:500px) {
   .navigation nav a {
@@ -376,11 +388,24 @@ a {
   }
 }
 .stories-intro {
-  padding-top: 11%;
+  padding-top: 13%;
 }
 .stories-intro h2 {
   margin: 0 14%;
   color: #02775d;
+}
+@media (max-width: 1000px) {
+  .stories-intro {
+    padding-top: 18%;
+    font-size: 3.3rem;
+  }
+}
+@media (max-width:500px) {
+  .stories-intro {
+    padding-top: 11%;
+    margin: 0 5%;
+    font-size: 3rem;
+  }
 }
 .party-stories {
   display: flex;
@@ -465,14 +490,14 @@ a {
   }
 }
 .tab-row-team {
-  padding-top: 10%;
+  padding-top: 11%;
   width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 .tab-row-team .tab-team {
-  width: 20%;
+  width: 15%;
   text-align: center;
   padding: 1%;
   font-size: 1.8rem;
@@ -491,14 +516,20 @@ a {
     display: none;
   }
 }
+@media (max-width:1000px) {
+  .tab-row-team {
+    padding-top: 13%;
+  }
+}
 @media (max-width: 700px) {
   .tab-row-team {
-    padding-top: 20%;
+    padding-top: 18%;
   }
 }
 .team-box {
   width: 100%;
   margin-top: 2%;
+  padding: 1% 2%;
 }
 @media (max-width:500px) {
   .team-box {
@@ -555,6 +586,8 @@ a {
 .team-box {
   width: 100%;
   margin: 0 auto;
+  padding-right: 5%;
+  padding-left: 5%;
   padding-bottom: 30%;
   display: flex;
   flex-flow: column wrap;
@@ -596,9 +629,15 @@ a {
   height: 100%;
   margin-right: 5%;
 }
+@media (max-width: 800px) {
+  .team-member {
+    width: 70%;
+  }
+}
 @media (max-width:500px) {
   .team-member {
     width: 80%;
+    justify-content: center;
   }
 }
 footer {
