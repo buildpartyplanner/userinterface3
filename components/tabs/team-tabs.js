@@ -1,4 +1,5 @@
-class teamTab{
+//TeamTab is 
+class TeamTab{
     constructor(tabElem){
         this.tabElem = tabElem;
         this.tabData= this.tabElem.dataset.tab;
@@ -14,6 +15,7 @@ class teamTab{
     }
 }
 
+//TeamProfile relates to the blurb about who does what on the team.
 class TeamProfile{
     constructor(element){
         this.element = element;
@@ -26,5 +28,5 @@ class TeamProfile{
 }
 
 
-const teamTabs = document.querySelectorAll(".tab-team").forEach(tab => new teamTab(tab));
+const teamTabs = document.querySelectorAll(".tab-team").forEach(tab => new TeamTab(tab));
 console.log(document.querySelectorAll('.tab-team'));

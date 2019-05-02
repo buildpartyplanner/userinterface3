@@ -14,6 +14,7 @@ class PartyTab{
     }
 }
 
+//Object for each blurb, basically controls which blurbs get shown.
 class PartyStory{
     constructor(element){
         this.element = element;
@@ -25,6 +26,6 @@ class PartyStory{
     }
 }
 
-
+//Grabs the "tabs" associated with party organizers in parties.html
 const partyTabs = document.querySelectorAll(".tab").forEach(tab => new PartyTab(tab));
 console.log(document.querySelectorAll('.tab'))
