@@ -28,4 +28,4 @@ class PartyStory{
 
 //Grabs the "tabs" associated with party organizers in parties.html
 const partyTabs = document.querySelectorAll(".tab").forEach(tab => new PartyTab(tab));
-console.log(document.querySelectorAll('.tab'))
+

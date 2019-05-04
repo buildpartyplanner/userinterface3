@@ -29,4 +29,3 @@ class TeamProfile{
 
 
 const teamTabs = document.querySelectorAll(".tab-team").forEach(tab => new TeamTab(tab));
-console.log(document.querySelectorAll('.tab-team'));
