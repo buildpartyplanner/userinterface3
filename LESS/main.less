@@ -7,7 +7,7 @@
     margin-bottom: 2%;
 
     .imgblock {
-        margin-top: 10%;
+        margin-top: 13%;
         display:flex;
         flex-flow: row;
         width: 100%;
@@ -16,28 +16,37 @@
             width:50%;
             height: 50%;
             border-radius: 30px;
+            padding:2%;
         }
 
         h2{
             width: 50%;
             font-size: 6.0rem;
             padding: 4%;
+            @media (max-width:700px){
+                font-size: 4.0rem;
+            }
         }
-     
+
      
         @media @phone{
             display:none;
         }
     }
     .intro-blurb{
-        
+        padding: 2%;
         margin-bottom: 2%;
+        font-size: 1.8rem;
         h2{
             margin: 2%;
         }
         p {
             margin:2%;
-            font-size:1.8rem;
+            font-size:2.0rem;
+            strong{
+                font-weight: bold;
+                color:@dark-dominant-color;
+            }
             
         }
         @media @phone{
@@ -76,7 +85,12 @@
             }
         }
         p{
-            margin: 2%;
+            margin: 3%;
+            font-size: 1.6rem;
+            @media @phone{
+                font-size:2.0rem;
+
+            }
             
         }
         @media @phone{

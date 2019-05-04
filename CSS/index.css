@@ -239,6 +239,7 @@ a {
   }
 }
 .navigation h1 {
+  font-size: 3.1rem;
   padding: 2% 0%;
   width: 33%;
   text-align: center;
@@ -279,6 +280,11 @@ a {
 }
 .navigation nav a:hover {
   color: white;
+  background-color: #04dbab;
+  font-size: 2.3rem;
+}
+.navigation nav a.nav-a-selected {
+  color: white;
   background-color: #03a984;
   font-size: 2.3rem;
 }
@@ -309,7 +315,7 @@ a {
   margin-bottom: 2%;
 }
 .intro-about .imgblock {
-  margin-top: 10%;
+  margin-top: 13%;
   display: flex;
   flex-flow: row;
   width: 100%;
@@ -318,11 +324,17 @@ a {
   width: 50%;
   height: 50%;
   border-radius: 30px;
+  padding: 2%;
 }
 .intro-about .imgblock h2 {
   width: 50%;
   font-size: 6rem;
   padding: 4%;
+}
+@media (max-width: 700px) {
+  .intro-about .imgblock h2 {
+    font-size: 4rem;
+  }
 }
 @media (max-width:500px) {
   .intro-about .imgblock {
@@ -330,14 +342,20 @@ a {
   }
 }
 .intro-about .intro-blurb {
+  padding: 2%;
   margin-bottom: 2%;
+  font-size: 1.8rem;
 }
 .intro-about .intro-blurb h2 {
   margin: 2%;
 }
 .intro-about .intro-blurb p {
   margin: 2%;
-  font-size: 1.8rem;
+  font-size: 2rem;
+}
+.intro-about .intro-blurb p strong {
+  font-weight: bold;
+  color: #02775d;
 }
 @media (max-width:500px) {
   .intro-about .intro-blurb {
@@ -379,7 +397,13 @@ a {
   }
 }
 .content-row .feature-blurb p {
-  margin: 2%;
+  margin: 3%;
+  font-size: 1.6rem;
+}
+@media (max-width:500px) {
+  .content-row .feature-blurb p {
+    font-size: 2rem;
+  }
 }
 @media (max-width:500px) {
   .content-row .feature-blurb {
