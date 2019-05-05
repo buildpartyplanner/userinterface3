@@ -320,9 +320,12 @@ a {
   flex-flow: row;
   width: 100%;
 }
-.intro-about .imgblock img {
+.intro-about .imgblock .imgblock-div {
   width: 50%;
-  height: 50%;
+}
+.intro-about .imgblock .imgblock-div img {
+  width: 100%;
+  margin: 4%;
   border-radius: 30px;
   padding: 2%;
 }
